@@ -1,0 +1,69 @@
+/* by Victor Beserra */
+
+* {
+    padding:0;
+    margin:0;
+}
+
+.geral {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpo-field {
+    width: 90%;
+    height: 90%;
+}
+
+.bloco-corpo {
+    width: 500px;
+    height: 300px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.bloco-corpo img {
+    width: 500px;
+    height: 300px;
+}
+
+#bloco-um {
+    width: 1000px;
+    border: 1px solid black;
+    padding: 20px 20px;
+}
+
+#bloco-dois, #bloco-tres, #bloco-quatro {
+    
+    float: left;
+}
+
+.bloco-input {
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+input {
+    width: 250px;
+    padding: 15px 15px;
+    font-size: 15pt;
+}
+label {
+    font-size: 14pt;
+}
+
+#bloco-input-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bloco-input-submit input:hover {
+    cursor: pointer;
+}
